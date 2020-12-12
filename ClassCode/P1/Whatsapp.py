@@ -9,7 +9,7 @@ import time
 
 text='sent from python bot'
 contact='Xixia Z'
-ff_profile_dir = r"C:\Users\User\Desktop\Class\P1" #current file location
+ff_profile_dir = r"C:\Users\User\Desktop\Class\ClassCode\P1" #current file location
 
 
 
