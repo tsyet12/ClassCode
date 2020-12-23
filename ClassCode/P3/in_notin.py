@@ -6,4 +6,4 @@ condition1=X in X_list
 
 condition2=X not in X_list
 
-print(condition1)
+print(condition2)

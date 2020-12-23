@@ -1,6 +1,7 @@
 #pip install selenium, pywin32
 #download geckodriver https://github.com/mozilla/geckodriver/releases
 #geckodriver: extract and put it in your Python directory eg. C:\Users\User\AppData\Local\Programs\Python\Python37
+#run as administrator
 
 #Let's import the Selenium package
 from selenium import webdriver
@@ -8,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 text='sent from python bot'
-contact='Xixia Z'
+contact='Python Course'
 ff_profile_dir = r"C:\Users\User\Desktop\Class\ClassCode\P1" #current file location
 
 
