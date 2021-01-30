@@ -8,6 +8,7 @@ data = {'A':  [1,2,3],
 
 df = pd.DataFrame(data, columns = ['Best','A','B', 'C'], index=['First', 'Second', 'Third'])
 
+print(df)
 df['value'] = df.lookup(df.index, df['Best'])
 
 print(df)

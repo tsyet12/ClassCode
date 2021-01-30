@@ -13,14 +13,15 @@ value=x[:,1:]
 tech=x[:,0]
 
 norm_value=(value-np.min(value,axis=0))/(np.max(value,axis=0)-np.min(value,axis=0))
-
+print(norm_value)
 weights=[1.3,1,-0.9]
 w_value=norm_value*weights
-w_sum=np.sum(w_value,axis=1)/np.sum(weights)
+w_sum=np.sum(w_value,axis=1)/np.sum(weights)*100
 
 w=np.vstack((tech,w_sum)).T
 
 df=pd.DataFrame(w)
 df=df.sort_values(1)
 print(df.values[-1])
+print("Technology",df.values[-1][0])
 

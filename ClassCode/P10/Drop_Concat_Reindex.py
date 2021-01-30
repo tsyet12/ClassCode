@@ -14,12 +14,15 @@ df2=df.drop(['A','B'],axis=1)
 print(df2)
 
 #Concatenate
-df3=pd.concat([df1,df2],axis=0)
+df3=pd.concat([df1,df2],axis=1)
 print(df3)
+
 
 #Reindex
 df4=df.reindex(["C","B","A"],axis=1)
 print(df4)
 
+
 df5=df.reindex(["Second","Third","First"],axis=0)
 print(df5)
+
