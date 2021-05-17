@@ -1,2 +1,2 @@
 # ClassCode
-Python class is taught by Sin Yong Teng
+Python class taught by Sin Yong Teng
